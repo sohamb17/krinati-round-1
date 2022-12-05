@@ -1,1 +1,6 @@
-<p>timeline works!</p>
+<div *ngFor="let job of jobs">
+	<p>{{ job.company }}</p>
+	<p>{{ job.startDate }}</p>
+	<p>{{ job.endDate }}</p>
+	<p>{{ job.title }}</p>
+</div>
