@@ -14,7 +14,7 @@ Develop a Simple Angular Timeline Component Describing your Education
 
 ### Demo Design:
 
-![Untitled](/images/demo.png)
+![Untitled](https://krinati.notion.site/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2F2acbf203-8b3a-4f8c-9142-2cf6ed09f807%2FUntitled.png?id=641a7f46-3d35-47f0-b667-bde34016dac0&table=block&spaceId=2067885d-6531-4e3c-b085-4ae39ea0c7ae&width=1560&userId=&cache=v2)
 
 Credit: [linkedin.com](http://linkedin.com)
 
