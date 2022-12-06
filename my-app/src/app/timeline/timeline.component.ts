@@ -6,5 +6,5 @@ import { Component, Input } from '@angular/core';
 	styleUrls: ['./timeline.component.css'],
 })
 export class TimelineComponent {
-	@Input() jobs: any[] = [];
+	@Input() schools: any[] = [];
 }

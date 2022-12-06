@@ -6,19 +6,22 @@ import { Component } from '@angular/core';
 	styleUrls: ['./home.component.css'],
 })
 export class HomeComponent {
-	jobs = [
+	schools = [
 		{
-			company: 'ChatGen',
-			startDate: 'Mar 2020',
-			endDate: 'Apr 2021',
-			title: 'Frontend Developer',
+			institution: 'Sardar Patel Institute of Technology',
+			startDate: '2019',
+			endDate: 'Present',
+			degree: 'B.Tech. Computer Engineering',
 		},
 		{
-			company: 'Mattermost',
-			startDate: 'Aug 2020',
-			endDate: 'Dec 2020',
-			title: 'Contributor',
+			institution: 'Sathaye College',
+			endDate: '2019',
+			degree: 'XIIth',
+		},
+		{
+			institution: 'Parle Tilak Vidyalaya English Medium School',
+			endDate: '2017',
+			degree: 'Xth',
 		},
 	];
-	//   above can be input to timeline component from parent component
 }

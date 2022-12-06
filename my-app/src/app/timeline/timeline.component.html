@@ -1,6 +1,11 @@
-<div *ngFor="let job of jobs; let last = last">
-	<h2>{{ job.company }}</h2>
-	<h3>{{ job.title }}</h3>
-	<p>{{ job.startDate }} - {{ job.endDate }}</p>
+<div *ngFor="let school of schools; let last = last">
+	<h2>{{ school.institution }}</h2>
+	<h3>{{ school.degree }}</h3>
+	<p *ngIf="school.startDate; else end">
+		{{ school.startDate }} - {{ school.endDate }}
+	</p>
+	<ng-template #end>
+		<p>{{ school.endDate }}</p>
+	</ng-template>
 	<hr *ngIf="!last" />
 </div>
